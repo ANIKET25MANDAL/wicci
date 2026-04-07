@@ -1,0 +1,112 @@
+ .home-container {
+  padding-left: 80px;   /* adds left space */
+  padding-right: 20px;  /* optional, keeps balance */
+  max-width: 1200px;    /* keeps content from stretching too wide */
+  margin: 0 auto;       /* centers the whole block */
+}
+
+
+/* General page styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Headings */
+.h2 {
+  /* display: inline-block; */
+  background-color: #ec3b83;   /* dark pink capsule */
+  color: black;                 /* black text for contrast */
+  padding: 10px 25px;          /* space inside capsule */
+  border-radius: 50px;         /* pill shape */
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px  70px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.youtube-video {
+  border-radius: 6px;
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 44px;
+  margin: 40px 0 20px;
+  color: black; /* black highlight */
+}
+
+h3 {
+  font-size: 20px;
+  margin: 30px 0 15px;
+  color: #ec3b83;
+}
+
+/* Layout rows and columns */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+/* Paragraphs */
+.home-container-p {
+   margin-top: 30px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Lists */
+ol, ul {
+  margin: 15px 0 20px 40px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Images and video */
+img, video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-top: 15px;
+}
+
+/* Strong text */
+strong {
+  color: #ec3b83;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .h2 {
+    font-size: 22px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+}

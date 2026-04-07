@@ -1,0 +1,20 @@
+.awards-container{
+  padding-left: 80px;   
+  padding-right: 20px;  
+  max-width: 1200px;   
+  margin: 0 auto; 
+}
+.awards-heading {
+  background-color: #ec3b83;   /* dark pink capsule */
+  color: black;                 /* black text for contrast */
+  padding: 10px 25px;          /* space inside capsule */
+  border-radius: 50px;         /* pill shape */
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px auto;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
